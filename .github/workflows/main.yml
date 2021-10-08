@@ -1,0 +1,11 @@
+name: push source
+on: push
+
+jobs:
+    build:
+        name: build actions
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+              with:
+                  MY_NAME: "Phuoc"
