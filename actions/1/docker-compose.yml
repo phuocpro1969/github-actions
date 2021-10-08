@@ -7,4 +7,4 @@ services:
             context: .
             dockerfile: ./Dockerfile
         env:
-            MY_NAME: "Phuoc"
+            INPUT_MY_NAME: "Phuoc"
