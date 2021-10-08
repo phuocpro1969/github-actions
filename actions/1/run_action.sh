@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "hello my name is $my_name"
+echo "hello my name is $MY_NAME"
