@@ -1,0 +1,10 @@
+version: "3.4"
+
+services:
+    githubactions:
+        image: githubactions
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        env:
+            INPUT_MY_NAME: "Phuoc"
